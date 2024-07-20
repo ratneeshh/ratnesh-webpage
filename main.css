@@ -59,7 +59,10 @@ nav > a:last-child {
     letter-spacing: 3px;
 }
 
-
+.list_title {
+    line-height: 0;
+    margin-top: 30px;
+}
 
 .painting {
     width: 150px;
@@ -75,5 +78,28 @@ nav > a:last-child {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
+.buttons {
+    margin-top: 35px;
+    text-align: center;
+}
 
+.buttons > img {
+    margin-right: 7px;
+}
 
+.buttons > img:last-child {
+    margin: 0;
+}
+
+footer {
+    margin-top: 75px;
+    text-align: center;
+    color: #666;
+    font-size: 12px;
+}
+
+@media only screen and (max-width: 600px) {
+    .me {
+        float: none;
+    }
+}
