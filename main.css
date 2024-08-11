@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
     max-width: 600px;
     margin: auto;
@@ -103,3 +104,110 @@ footer {
         float: none;
     }
 }
+=======
+body {
+    max-width: 600px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    padding: 15px;
+    word-wrap: break-word;
+    background-color: #fff8e7;
+    line-height: 1.3;
+}
+
+ul {
+    padding-left: 20px;
+    list-style-type: circle;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+a {
+    color: rgba(12, 9, 255, 1);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+code {
+    font-size: 16px;
+}
+
+.red {
+    color: #b90000;
+}
+
+nav {
+    margin: 10px 0;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+nav > a {
+    margin-right: 30px;
+}
+
+nav > a:last-child {
+    margin: 0;
+}
+
+.intro {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-weight: 500;
+    font-family: Georgia, serif;
+    font-style: italic;
+    letter-spacing: 3px;
+}
+
+.list_title {
+    line-height: 0;
+    margin-top: 30px;
+}
+
+.painting {
+    width: 150px;
+}
+
+.quote {
+    margin-top: 20px;
+    font-family: Georgia, serif;
+}
+
+.quote > p {
+    margin-block-start: 5px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.buttons {
+    margin-top: 35px;
+    text-align: center;
+}
+
+.buttons > img {
+    margin-right: 7px;
+}
+
+.buttons > img:last-child {
+    margin: 0;
+}
+
+footer {
+    margin-top: 75px;
+    text-align: center;
+    color: #666;
+    font-size: 12px;
+}
+
+@media only screen and (max-width: 600px) {
+    .me {
+        float: none;
+    }
+}
+>>>>>>> f2f42f395dc9adab402da46b71a1856240f0c422
